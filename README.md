@@ -1,5 +1,5 @@
 # Desafio Calculadora Partidas Ranqueadas 🏆
-Calculadora de partidas ranqueadas. A realização deste projeto faz parte das tarefas a serem realizadas no Bootcamp Potência Tech iFood - Programação do Zero
+Calculadora de partidas ranqueadas. Retorna o nível de classificação em um jogo e o saldo de vitórias estimados a partir de dados fornecidos pelo usuário. A realização deste projeto faz parte das tarefas a serem realizadas no Bootcamp Potência Tech iFood - Programação do Zero
 
 ### Tecnologias Utilizadas
 
