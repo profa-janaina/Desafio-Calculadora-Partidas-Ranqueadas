@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de partidas Rankeadas</title>
+    
+    <link rel="stylesheet" href="src/style.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <img src="/src/cool.png" alt="gato com tampão de pirata estilo pixel">
+        <h1>Calculadora de Partidas Rankeadas</h1>
+        <br><br>
+        <label>Informe o número de vitórias</label>
+        <input type="number" placeholder="Número de vitórias :)" id="numeroVitorias">
+        <br><br>
+        <label>Informe o número de derrotas </label>
+        <input type="number" placeholder="Número de derrotas :(" id="numeroDerrotas">
+        <br><br>
+        <button onclick="calcularRanking()" id="btnClassificador">Calcular Ranking</button>
+        <br>
+        <div>
+            <p id="resultadoClassificacao"></p>
+        </div>
+    </div>
+
+    <script src="src/main.js"></script>
+</body>
+</html>
