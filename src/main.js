@@ -3,7 +3,7 @@ let numeroDerrotas = "";
 let nivelHeroi;
 let mensagem;
 
-function calcularRanking(){
+function calcularRanque(){
     numeroVitorias = document.getElementById("numeroVitorias").value;
     numeroDerrotas = document.getElementById("numeroDerrotas").value;
 
